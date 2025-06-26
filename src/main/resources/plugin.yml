@@ -1,0 +1,10 @@
+name: CustomCommands
+version: 1.0.0
+main: com.example.customcommands.CustomCommandsPlugin
+api: [1.0.0]
+description: A plugin to create custom commands with configurable server commands and messages.
+author: hbartuk
+permissions:
+  customcommands.*:
+    description: Gives access to all custom commands
+    default: op
