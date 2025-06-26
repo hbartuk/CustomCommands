@@ -1,0 +1,19 @@
+commands:
+  heal:
+    command: "heal {player}"
+    description: "Heals the player"
+    permission: "customcommands.heal"
+    success_message: "You have been healed!"
+    error_message: "Error: You don't have permission or something went wrong."
+  creative:
+    command: "gamemode creative {player}"
+    description: "Sets creative mode"
+    permission: "customcommands.creative"
+    success_message: "Creative mode enabled!"
+    error_message: "Error: Unable to set creative mode."
+  sayhello:
+    command: "say Hello, {args}!"
+    description: "Says hello with custom arguments"
+    permission: "customcommands.sayhello"
+    success_message: "Message sent!"
+    error_message: "Error: Failed to send message."
